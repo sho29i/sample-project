@@ -300,4 +300,14 @@
             <version>5.1.39</version>
         </dependency>
     </dependencies>
+    
+<distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>corp1</id>
+      <name>Corporate Repository</name>
+      <url>file:///usr/local/tomcat7/webapps</url>
+      <layout>default</layout>
+    </repository>
+</distributionManagement>
 </project>
