@@ -66,7 +66,7 @@ public class KpopAction {
 //
 //		//人気グループを取得
 //		List<GroupDto> rankGroupDtoList = topContentsService.getRankGroupDtoList();			
-		
+		newMovieDtoList.movieId = "group_id";
 		return "top1.jsp";
 		
 	}
