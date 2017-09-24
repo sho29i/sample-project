@@ -17,7 +17,7 @@ import kpop.net.service.TopContentsService;
  * @author shotaro
  *
  */
-public class IndexAction {
+public class KpopAction {
 
 	// ====================================================
 	//                                         DI
