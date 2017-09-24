@@ -38,13 +38,13 @@ public class IndexAction {
 	//                                        =============
 	
     /** タグ情報 */
-	public List<TagDto> tagDtoList;
+	//public List<TagDto> tagDtoList;
 	
 	/** 動画情報（更新順） */
 	public List<MovieDto> movieDtoList;
 	
 	/** ランクイン動画情報 */
-	public List<MovieDto> rankInMovieDtoList;
+	//public List<MovieDto> rankInMovieDtoList;
 	
 	// ====================================================
 	//                                         実行メソッド
