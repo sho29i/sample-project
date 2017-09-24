@@ -51,10 +51,10 @@ public class MovieDto {
      */
     public BigDecimal likes;
     
-    /**
-     * タグリスト
-     */
-    public List<TagDto> tagDtoList;
+//    /**
+//     * タグリスト
+//     */
+//    public List<TagDto> tagDtoList;
     
 
     
