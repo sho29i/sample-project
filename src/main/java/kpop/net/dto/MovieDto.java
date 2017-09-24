@@ -18,46 +18,46 @@ public class MovieDto {
 //	member_id
 //	work_id
 //	
-//	@Column(name = "ID")
-//	@Id
-//    public String movieId;
-//    
-//    public String title;
-//
-//    public String description;
-//
-//    /**
-//     * 動画URL
-//     */
-//    public String movieUrl;
-//    
-//    /**
-//     * サムネイル
-//     */
-//    public String thumbnail;
-//    
-//    /**
-//     * 再生時間
-//     */
-//    public String playtime;
-//    
-//    /**
-//     * 再生数
-//     */
-//    public BigDecimal view;
-//    
-//    /**
-//     * いいね数
-//     */
-//    public BigDecimal likes;
-//    
-//    /**
-//     * タグリスト
-//     */
-//    public List<TagDto> tagDtoList;
-//    
-//
-//    
+	@Column(name = "ID")
+	@Id
+    public String movieId;
+    
+    public String title;
+
+    public String description;
+
+    /**
+     * 動画URL
+     */
+    public String movieUrl;
+    
+    /**
+     * サムネイル
+     */
+    public String thumbnail;
+    
+    /**
+     * 再生時間
+     */
+    public String playtime;
+    
+    /**
+     * 再生数
+     */
+    public BigDecimal view;
+    
+    /**
+     * いいね数
+     */
+    public BigDecimal likes;
+    
+    /**
+     * タグリスト
+     */
+    public List<TagDto> tagDtoList;
+    
+
+    
 
 
 

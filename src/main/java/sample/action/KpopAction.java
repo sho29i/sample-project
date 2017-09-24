@@ -55,7 +55,8 @@ public class KpopAction {
 		TopContentsService topContentsService = new TopContentsService();
 		
 		//新着動画を取得
-		List<MovieDto> newMovieDtoList = topContentsService.getNewMovieDtoList();
+		//List<MovieDto> newMovieDtoList = topContentsService.getNewMovieDtoList();
+		MovieDto newMovieDtoList = topContentsService.getNewMovieDtoList();
 		
 //		//人気動画を取得
 //		List<MovieDto> rankMovieDtoList = topContentsService.getRankMovieDtoList();

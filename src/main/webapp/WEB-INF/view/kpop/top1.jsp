@@ -2,5 +2,6 @@
 <html>
 <body>
 kpop
+${f:h(newMovieDtoList.movieId)}
 </body>
 </html>

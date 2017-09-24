@@ -41,22 +41,24 @@ public class TopContentsService {
 	 * @param
 	 * @return newMovieDtoList
 	 */
-	public List<MovieDto> getNewMovieDtoList(){
+	public MovieDto getNewMovieDtoList(){
 		Connection con = null;
-		List<MovieDto> newMovieDtoList = new ArrayList<>();
+		MovieDto newMovieDtoList = new MovieDto();
 		try{
 			// MySQLに接続
 			con = DriverManager.getConnection("jdbc:mysql://http://59.106.214.173/:3306/null", "root", "1man1sh1");
 			System.out.println("MySQLに接続できました。");
 
 			Statement stm = con.createStatement();
-			String sql = "select * from group";
+			String sql = "select * from movie";
 			ResultSet rs = stm.executeQuery(sql);
 
 			while(rs.next()){
-				int id = rs.getInt("group_id");
+				//MovieDto movie = new MovieDto();
 				//String name = rs.getString("name");
-				System.out.println("取得結果 -> " + id );
+				newMovieDtoList.movieId = rs.getString("group_id");
+				//System.out.println("取得結果 -> " + id );
+				//newMovieDtoList.add(movie);
 			}
 			
 		} catch (SQLException e) {
