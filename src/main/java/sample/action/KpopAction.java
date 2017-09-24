@@ -27,8 +27,8 @@ public class KpopAction {
 //	@ActionForm
 //	public IndexForm indexForm;
 	
-	@Resource
-	protected TopContentsService topContentsService;
+//	@Resource
+//	protected TopContentsService topContentsService;
 	
 	@Resource
 	protected HttpServletResponse response;
@@ -52,6 +52,7 @@ public class KpopAction {
 	
 	@Execute(validator = false)
 	public String index(){
+		TopContentsService topContentsService = new TopContentsService();
 		
 		//新着動画を取得
 		List<MovieDto> newMovieDtoList = topContentsService.getNewMovieDtoList();
