@@ -23,9 +23,9 @@ public class KpopAction {
 	//                                         DI
 	//                                        =============
 	
-//	@Resource
-//	@ActionForm
-//	public KpopForm indexForm;
+	@Resource
+	@ActionForm
+	public KpopForm kpopForm;
 	
 //	@Resource
 //	protected TopContentsService topContentsService;
@@ -67,7 +67,7 @@ public class KpopAction {
 //
 //		//人気グループを取得
 //		List<GroupDto> rankGroupDtoList = topContentsService.getRankGroupDtoList();			
-		newMovieDtoList.movieId = "group_id";
+		kpopForm.movieId = "group_id";
 		return "top1.jsp";
 		
 	}

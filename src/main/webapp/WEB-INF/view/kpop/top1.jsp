@@ -5,7 +5,8 @@
 <html>
 <body>
 kpop
-<c:out value="${newMovieDtoList.movieId}"/>
+
+<c:out value="${movieId}"/>
 ${f:h(newMovieDtoList.movieId)}です。
 </body>
 </html>
