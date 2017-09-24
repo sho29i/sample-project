@@ -1,4 +1,4 @@
-package kpop.net.action;
+package sample.action;
 
 import java.util.List;
 
