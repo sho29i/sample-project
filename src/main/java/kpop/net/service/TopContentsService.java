@@ -14,7 +14,7 @@ import org.seasar.extension.jdbc.JdbcManager;
 
 
 import kpop.net.dto.MovieDto;
-import kpop.net.dto.TagDto;
+//import kpop.net.dto.TagDto;
 
 /**
  * TOPページに表示するコンテンツを取得するサービス
