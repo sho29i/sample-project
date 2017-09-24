@@ -25,7 +25,7 @@ public class KpopAction {
 	
 	@Resource
 	@ActionForm
-	public KpopForm kpopForm;
+	protected KpopForm kpopForm;
 	
 //	@Resource
 //	protected TopContentsService topContentsService;
