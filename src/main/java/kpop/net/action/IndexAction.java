@@ -9,7 +9,7 @@ import org.seasar.struts.annotation.ActionForm;
 import org.seasar.struts.annotation.Execute;
 
 import kpop.net.dto.MovieDto;
-import kpop.net.dto.TagDto;
+//import kpop.net.dto.TagDto;
 import kpop.net.service.TopContentsService;
 
 /** 
