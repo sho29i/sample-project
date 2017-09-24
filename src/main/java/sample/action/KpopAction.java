@@ -25,7 +25,7 @@ public class KpopAction {
 	
 //	@Resource
 //	@ActionForm
-//	public IndexForm indexForm;
+//	public KpopForm indexForm;
 	
 //	@Resource
 //	protected TopContentsService topContentsService;
@@ -42,6 +42,7 @@ public class KpopAction {
 	
 	/** 動画情報（更新順） */
 	public List<MovieDto> movieDtoList;
+	public MovieDto newMovieDtoList;
 	
 	/** ランクイン動画情報 */
 	//public List<MovieDto> rankInMovieDtoList;
